@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+	    'simple_publisher = ros_exercises.simple_publisher:main',
         ],
     },
 )
