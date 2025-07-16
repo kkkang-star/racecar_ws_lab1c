@@ -1,0 +1,14 @@
+<launch>
+    <!-- 
+        这个启动文件会同时启动你之前创建的所有四个节点。
+    -->
+
+    <!-- 节点 1: 简单的随机数发布者 -->
+    <node pkg="ros_exercises" exec="simple_publisher" name="simple_publisher_node" output="screen"/>
+
+    <!-- 节点 2: 简单的日志订阅者 -->
+    <node pkg="ros_exercises" exec="simple_subscriber" name="simple_subscriber_node" output="screen"/>
+
+
+
+</launch>

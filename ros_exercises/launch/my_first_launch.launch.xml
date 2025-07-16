@@ -1,0 +1,18 @@
+<launch>
+    <!-- 
+        这个启动文件会同时启动你之前创建的所有四个节点。
+    -->
+
+    <!-- 节点 1: 简单的随机数发布者 -->
+    <node pkg="ros_exercises" exec="simple_publisher" name="simple_publisher_node" output="screen"/>
+
+    <!-- 节点 2: 简单的日志订阅者 -->
+    <node pkg="ros_exercises" exec="simple_subscriber" name="simple_subscriber_node" output="screen"/>
+
+    <!-- 节点 3: 伪造的激光雷达数据发布者 -->
+    <node pkg="ros_exercises" exec="fake_scan_publisher" name="fake_scan_publisher_node" output="screen"/>
+
+    <!-- 节点 4: 开放空间查找并发布的节点 -->
+    <node pkg="ros_exercises" exec="open_space_publisher" name="open_space_publisher_node" output="screen"/>
+
+</launch>

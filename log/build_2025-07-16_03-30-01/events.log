@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (-) JobUnselected: {'identifier': 'custom_msgs'}
+[0.000616] (ros_exercises) JobQueued: {'identifier': 'ros_exercises', 'dependencies': OrderedDict([('custom_msgs', '/home/racecar/racecar_ws/src/lab1c/install/custom_msgs')])}
+[0.000939] (ros_exercises) JobStarted: {'identifier': 'ros_exercises'}
+[0.098673] (-) TimerEvent: {}
+[0.199108] (-) TimerEvent: {}
+[0.299718] (-) TimerEvent: {}
+[0.401385] (-) TimerEvent: {}
+[0.501889] (-) TimerEvent: {}
+[0.602396] (-) TimerEvent: {}
+[0.702952] (-) TimerEvent: {}
+[0.803591] (-) TimerEvent: {}
+[0.904149] (-) TimerEvent: {}
+[1.004900] (-) TimerEvent: {}
+[1.105617] (-) TimerEvent: {}
+[1.206128] (-) TimerEvent: {}
+[1.306598] (-) TimerEvent: {}
+[1.406997] (-) TimerEvent: {}
+[1.507514] (-) TimerEvent: {}
+[1.608006] (-) TimerEvent: {}
+[1.708515] (-) TimerEvent: {}
+[1.809187] (-) TimerEvent: {}
+[1.909712] (-) TimerEvent: {}
+[2.010262] (-) TimerEvent: {}
+[2.110681] (-) TimerEvent: {}
+[2.211218] (-) TimerEvent: {}
+[2.311715] (-) TimerEvent: {}
+[2.409004] (ros_exercises) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/build', '--no-deps', 'symlink_data'], 'cwd': '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': '8797acc7a565', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/racecar/racecar_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/racecar', 'OLDPWD': '/home/racecar/racecar_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/racecar/racecar_ws/install:/home/sim_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/install/ros_exercises:/home/racecar/racecar_ws/install/custom_msgs:/opt/ros/humble', 'SIM_WS': '/home/sim_ws', 'PWD': '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises', 'PYTHONPATH': '/home/racecar/racecar_ws/src/lab1c/build/ros_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.10/site-packages:/home/racecar/racecar_ws/install/ros_exercises/lib/python3.10/site-packages:/home/racecar/racecar_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NO_VNC_VERSION': '1.4.0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sim_ws/install/racecar_simulator:/home/racecar/racecar_ws/install/custom_msgs'}, 'shell': False}
+[2.416139] (-) TimerEvent: {}
+[2.516524] (-) TimerEvent: {}
+[2.616957] (-) TimerEvent: {}
+[2.717352] (-) TimerEvent: {}
+[2.817781] (-) TimerEvent: {}
+[2.918312] (-) TimerEvent: {}
+[3.018742] (-) TimerEvent: {}
+[3.119386] (-) TimerEvent: {}
+[3.219838] (-) TimerEvent: {}
+[3.320414] (-) TimerEvent: {}
+[3.385189] (ros_exercises) StdoutLine: {'line': b'running develop\n'}
+[3.420532] (-) TimerEvent: {}
+[3.520918] (-) TimerEvent: {}
+[3.621568] (-) TimerEvent: {}
+[3.628777] (ros_exercises) StdoutLine: {'line': b'running egg_info\n'}
+[3.629716] (ros_exercises) StdoutLine: {'line': b'creating ros_exercises.egg-info\n'}
+[3.630571] (ros_exercises) StdoutLine: {'line': b'writing ros_exercises.egg-info/PKG-INFO\n'}
+[3.634731] (ros_exercises) StdoutLine: {'line': b'writing dependency_links to ros_exercises.egg-info/dependency_links.txt\n'}
+[3.637381] (ros_exercises) StdoutLine: {'line': b'writing entry points to ros_exercises.egg-info/entry_points.txt\n'}
+[3.639658] (ros_exercises) StdoutLine: {'line': b'writing requirements to ros_exercises.egg-info/requires.txt\n'}
+[3.641659] (ros_exercises) StdoutLine: {'line': b'writing top-level names to ros_exercises.egg-info/top_level.txt\n'}
+[3.644116] (ros_exercises) StdoutLine: {'line': b"writing manifest file 'ros_exercises.egg-info/SOURCES.txt'\n"}
+[3.679223] (ros_exercises) StdoutLine: {'line': b"reading manifest file 'ros_exercises.egg-info/SOURCES.txt'\n"}
+[3.713654] (ros_exercises) StdoutLine: {'line': b"writing manifest file 'ros_exercises.egg-info/SOURCES.txt'\n"}
+[3.721681] (-) TimerEvent: {}
+[3.822062] (-) TimerEvent: {}
+[3.827022] (ros_exercises) StdoutLine: {'line': b'running build_ext\n'}
+[3.827758] (ros_exercises) StdoutLine: {'line': b'Creating /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/python3.10/site-packages/ros-exercises.egg-link (link to .)\n'}
+[3.841476] (ros_exercises) StdoutLine: {'line': b'Installing fake_scan_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.850678] (ros_exercises) StdoutLine: {'line': b'Installing open_space_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.859908] (ros_exercises) StdoutLine: {'line': b'Installing open_space_publisher2 script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.868848] (ros_exercises) StdoutLine: {'line': b'Installing simple_publisher script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.878749] (ros_exercises) StdoutLine: {'line': b'Installing simple_subscriber script to /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/lib/ros_exercises\n'}
+[3.890271] (ros_exercises) StdoutLine: {'line': b'\n'}
+[3.890879] (ros_exercises) StdoutLine: {'line': b'Installed /home/racecar/racecar_ws/src/lab1c/build/ros_exercises\n'}
+[3.892457] (ros_exercises) StdoutLine: {'line': b'running symlink_data\n'}
+[3.896745] (ros_exercises) StdoutLine: {'line': b'creating /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ament_index\n'}
+[3.898583] (ros_exercises) StdoutLine: {'line': b'creating /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ament_index/resource_index\n'}
+[3.900431] (ros_exercises) StdoutLine: {'line': b'creating /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ament_index/resource_index/packages\n'}
+[3.908767] (ros_exercises) StdoutLine: {'line': b'symbolically linking /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/resource/ros_exercises -> /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ament_index/resource_index/packages\n'}
+[3.917624] (ros_exercises) StdoutLine: {'line': b'symbolically linking /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/package.xml -> /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ros_exercises\n'}
+[3.922158] (-) TimerEvent: {}
+[3.923101] (ros_exercises) StdoutLine: {'line': b'creating /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ros_exercises/launch\n'}
+[3.932834] (ros_exercises) StdoutLine: {'line': b'symbolically linking /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/launch/my_first_launch.launch.xml -> /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ros_exercises/launch\n'}
+[3.942558] (ros_exercises) StdoutLine: {'line': b'symbolically linking /home/racecar/racecar_ws/src/lab1c/build/ros_exercises/launch/test.launch.xml -> /home/racecar/racecar_ws/src/lab1c/install/ros_exercises/share/ros_exercises/launch\n'}
+[3.969267] (ros_exercises) CommandEnded: {'returncode': 0}
+[4.022264] (-) TimerEvent: {}
+[4.127885] (-) TimerEvent: {}
+[4.176515] (ros_exercises) JobEnded: {'identifier': 'ros_exercises', 'rc': 0}
+[4.182519] (-) EventReactorShutdown: {}
