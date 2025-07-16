@@ -28,6 +28,8 @@ setup(
             'fake_scan_publisher = ros_exercises.fake_scan_publisher:main',
             'open_space_publisher = ros_exercises.open_space_publisher:main',
             'open_space_publisher2 = ros_exercises.open_space_publisher2:main',
+            'open_space_publisher3 = ros_exercises.open_space_publisher3:main',
+            'fake_scan_publisher2 = ros_exercises.fake_scan_publisher2:main',
         ],
     },
 )

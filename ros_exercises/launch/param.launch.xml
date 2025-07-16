@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="ros_exercises" exec="fake_scan_publisher2" name="fake_scan_publisher2_node" output="screen">
+        <param name="publish_rate" value="5.0"/>
+        <param name="scan_topic" value="custom_scan"/>
+    </node>
+
+    <node pkg="ros_exercises" exec="open_space_publisher3" name="open_space_publisher3_node" output="screen">
+        <param name="subscriber_topic" value="custom_scan"/>
+        <param name="publisher_topic" value="my_open_space2"/>
+    </node>
+</launch>
